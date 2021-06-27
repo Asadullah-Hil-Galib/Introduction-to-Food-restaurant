@@ -1,0 +1,97 @@
+@media(max-width:991px) {
+    #sliderBottom .sliderBottomRight::after {
+        top: 0;
+        left: -170px;
+        width: 200%;
+        transform: skew(0deg);
+    }
+    /* ABOUT COMPANY */
+    #aboutCompany {
+        text-align: center;
+    }
+    /* COUNTER */
+    #counnter .counterItem .counterItemNumber p span {
+        padding-right: 0px;
+    }
+}
+@media(max-width:768px) {
+    .headerTop {
+        text-align: center;
+    }
+    .headerTop .headerTopIcon ul {
+        text-align: center;
+    }
+    /* BANNER */
+    #banner .carousel-inner .carouselItem-one{
+        height: 80vh;
+    }
+    #banner .carousel-inner .carouselItem-two{
+        height: 80vh;
+    }
+    #banner .carousel-inner .carouselItem-three{
+        height: 80vh;
+    }
+    /* ABOUT COMPANY */
+    #aboutCompany .companyInfo p {
+        font-size: 14px;
+    }
+}
+@media(max-width:766px){
+    .form-control {
+        width: 100%;
+        display: block;
+    }
+}
+@media(max-width:576px) {
+    /* BANNER */
+    #banner .carousel-inner .carouselItem-one{
+        height: 50vh;
+    }
+    #banner .carousel-inner .carouselItem-two{
+        height: 50vh;
+    }
+    #banner .carousel-inner .carouselItem-three{
+        height: 50vh;
+    }
+    .carousel-indicators button {
+        bottom: 3px;
+    }
+    /* BANNER BOTTOM */
+    #sliderBottom{
+        text-align:center;
+    }
+    #sliderBottom .sliderBottomRight a {
+        z-index: 999;
+        display: block;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        padding: 8px 35px;
+    }
+    /* VIDEO */
+    #gbsVideo{
+        padding: 100px 0;
+    }
+}
+@media(max-width:366px) {
+    /* BANNER BOTTOM */
+    #sliderBottom .sliderBottomRight a {
+        width: 100%;
+    }
+}
+@media(max-width:375px) {
+    .counterBox{
+        width: 100%;
+    }
+    #aboutUs .aboutGalibInfo .aboutImg img {
+        border-radius: 0px;
+    }
+    #aboutUs .aboutSakibInfo .aboutImg img {
+        border-radius: 0px;
+    }
+}
+/* COUSTOM NEEDED */
+.uk-h1, .uk-h2, .uk-h3, .uk-h4, .uk-h5, .uk-h6, .uk-heading-2xlarge, .uk-heading-large, .uk-heading-medium, .uk-heading-small, .uk-heading-xlarge, h1, h2, h3, h4, h5, h6 {
+	margin: 0 0 0 0;
+}
